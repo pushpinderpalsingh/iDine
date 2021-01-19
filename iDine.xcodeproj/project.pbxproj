@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF22C14E25B6059200791318 /* OrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22C14D25B6059200791318 /* OrderView.swift */; };
+		FF22C15125B6096D00791318 /* AppView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22C15025B6096D00791318 /* AppView.swift */; };
+		FF22C15425B60B7E00791318 /* CheckoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF22C15325B60B7E00791318 /* CheckoutView.swift */; };
 		FF707FF025829CCC00F3D06E /* ItemRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF707FEF25829CCC00F3D06E /* ItemRow.swift */; };
 		FF707FF32582A59900F3D06E /* ItemDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF707FF22582A59900F3D06E /* ItemDetail.swift */; };
 		FFB2CD7025815D9600477058 /* iDineApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFB2CD6F25815D9600477058 /* iDineApp.swift */; };
@@ -20,6 +23,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FF22C14D25B6059200791318 /* OrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderView.swift; sourceTree = "<group>"; };
+		FF22C15025B6096D00791318 /* AppView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppView.swift; sourceTree = "<group>"; };
+		FF22C15325B60B7E00791318 /* CheckoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckoutView.swift; sourceTree = "<group>"; };
 		FF707FEF25829CCC00F3D06E /* ItemRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemRow.swift; sourceTree = "<group>"; };
 		FF707FF22582A59900F3D06E /* ItemDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemDetail.swift; sourceTree = "<group>"; };
 		FFB2CD6C25815D9600477058 /* iDine.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iDine.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -65,9 +71,12 @@
 			isa = PBXGroup;
 			children = (
 				FFB2CD6F25815D9600477058 /* iDineApp.swift */,
+				FF22C15325B60B7E00791318 /* CheckoutView.swift */,
 				FFB2CD7125815D9600477058 /* ContentView.swift */,
 				FF707FEF25829CCC00F3D06E /* ItemRow.swift */,
 				FF707FF22582A59900F3D06E /* ItemDetail.swift */,
+				FF22C14D25B6059200791318 /* OrderView.swift */,
+				FF22C15025B6096D00791318 /* AppView.swift */,
 				FFB2CD7F25815F0C00477058 /* Helper.swift */,
 				FFB2CD8225815F2A00477058 /* menu.json */,
 				FFB2CD8325815F2A00477058 /* Menu.swift */,
@@ -158,6 +167,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				FF707FF32582A59900F3D06E /* ItemDetail.swift in Sources */,
+				FF22C14E25B6059200791318 /* OrderView.swift in Sources */,
+				FF22C15425B60B7E00791318 /* CheckoutView.swift in Sources */,
+				FF22C15125B6096D00791318 /* AppView.swift in Sources */,
 				FFB2CD7225815D9600477058 /* ContentView.swift in Sources */,
 				FFB2CD7025815D9600477058 /* iDineApp.swift in Sources */,
 				FFB2CD8725815F2B00477058 /* Order.swift in Sources */,
